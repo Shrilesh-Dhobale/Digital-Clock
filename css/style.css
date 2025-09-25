@@ -1,5 +1,7 @@
 body {
 background-color: black;
 color: lime;
-
+font-family: Arial;
+text-align: center;
+margin-top: 100px;
 }

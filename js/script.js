@@ -24,4 +24,6 @@ function showTime() {
     let dayName = days[today.getDay()];
     let monthName = months[today.getMonth()];
     let date = dayName + ", " + monthName + " " + today.getDate() + ", " + today.getFullYear();
+
+    document.getElementById("date").innerHTML = date;
 }

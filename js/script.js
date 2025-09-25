@@ -3,4 +3,8 @@ function showTime() {
     let hours = today.getHours();
     let minutes = today.getMinutes();
     let seconds = today.getSeconds();
+
+    if (hours < 10) {
+        hours = "0" + hours;
+    }
 }

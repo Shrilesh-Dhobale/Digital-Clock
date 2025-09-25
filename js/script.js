@@ -27,3 +27,4 @@ function showTime() {
 
     document.getElementById("date").innerHTML = date;
 }
+setInterval(showTime, 1000);

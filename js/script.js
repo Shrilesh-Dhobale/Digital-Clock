@@ -13,4 +13,7 @@ function showTime() {
     if (seconds < 10) {
         seconds = "0" + seconds;
     }
+
+    let time = hours + ":" + minutes + ":" + seconds;
+    document.getElementById("clock").innerHTML = time;
 }

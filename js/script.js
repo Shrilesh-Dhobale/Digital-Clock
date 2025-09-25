@@ -16,4 +16,7 @@ function showTime() {
 
     let time = hours + ":" + minutes + ":" + seconds;
     document.getElementById("clock").innerHTML = time;
+
+    let months = ["January", "February", "March", "April", "May", "June", 
+                    "July", "August", "September", "October", "November", "December"];
 }
